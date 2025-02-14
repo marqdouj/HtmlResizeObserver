@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.35806.103 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marqdouj.Html.ResizeObserver", "Marqdouj.Html.ResizeObserver\Marqdouj.Html.ResizeObserver.csproj", "{D6B772C7-91B8-49DA-9FFC-8979EF80BAB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApp", "DemoWebApp\DemoWebApp.csproj", "{61E6919B-A731-4410-AB72-9B546FC6459D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D6B772C7-91B8-49DA-9FFC-8979EF80BAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B772C7-91B8-49DA-9FFC-8979EF80BAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6B772C7-91B8-49DA-9FFC-8979EF80BAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E6919B-A731-4410-AB72-9B546FC6459D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E6919B-A731-4410-AB72-9B546FC6459D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E6919B-A731-4410-AB72-9B546FC6459D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E6919B-A731-4410-AB72-9B546FC6459D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

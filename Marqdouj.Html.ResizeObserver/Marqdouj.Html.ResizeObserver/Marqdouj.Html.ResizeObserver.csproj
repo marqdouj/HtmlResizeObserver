@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>9.0.0-rc</Version>
+	<Version>8.0.0-rc</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Html ResizeObserver RCL</Title>
     <PackageProjectUrl>https://github.com/marqdouj/HtmlResizeObserver</PackageProjectUrl>
