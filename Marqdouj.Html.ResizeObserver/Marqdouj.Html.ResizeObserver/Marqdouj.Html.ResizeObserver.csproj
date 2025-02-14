@@ -4,11 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>8.0.0-rc</Version>
+	<Version>8.0.0-rc2</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Html ResizeObserver RCL</Title>
     <PackageProjectUrl>https://github.com/marqdouj/HtmlResizeObserver</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Resize Html</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
@@ -16,13 +15,6 @@
 	<Copyright>© Douglas Marquardt. All rights reserved.</Copyright>
 	<Description>RCL that wraps the Html ResizeObserver using JSInterop</Description>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
@@ -38,7 +30,7 @@
 
   <ItemGroup>
     <Content Update="tsconfig.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
