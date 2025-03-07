@@ -1,46 +1,40 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
-
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>8.0.0</Version>
+    <Version>9.0.0</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Html ResizeObserver RCL</Title>
     <PackageProjectUrl>https://github.com/marqdouj/HtmlResizeObserver</PackageProjectUrl>
     <PackageTags>Resize Html</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-	<Authors>Douglas Marquardt</Authors>
-	<Copyright>© Douglas Marquardt. All rights reserved.</Copyright>
-	<Description>RCL that wraps the Html ResizeObserver using JSInterop</Description>
-	<PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>Douglas Marquardt</Authors>
+    <Copyright>© Douglas Marquardt. All rights reserved.</Copyright>
+    <Description>RCL that wraps the Html ResizeObserver using JSInterop</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-	
   <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.13" />
-    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.8.0-rc">
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.2" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.8.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-
   <ItemGroup>
     <Content Update="tsconfig.json">
-	  <Pack>false</Pack>
+      <Pack>false</Pack>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-
 </Project>
