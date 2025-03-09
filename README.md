@@ -16,5 +16,8 @@ Includes Blazor demo using the html ResizeObserver.
 See the 'Demo' page in the demo project for a complete example of how to use the ResizeObserverService.
 
 ## Release Notes
+### 9.0.1
+- Added NuGet pkg icon
+- 
 ### 9.0.0
 - Updated to .NET 9.0
