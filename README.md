@@ -1,4 +1,5 @@
 # Html ResizeObserver
+- A demo of this and all of my NuGet packages can be found [here](https://github.com/marqdouj/BlazorDemo/).
 
 ## NuGet Package
 https://www.nuget.org/packages/Marqdouj.Html.ResizeObserver/
@@ -11,9 +12,6 @@ Includes Blazor demo using the html ResizeObserver.
 	1. `@using Marqdouj.Html.ResizeObserver`
 3. Add the following to your `Program.cs` file.
 	1. `builder.Services.AddScoped<ResizeObserverService>();`
-
-## Usage
-See the 'Demo' page in the demo project for a complete example of how to use the ResizeObserverService.
 
 ## Release Notes
 ### 9.0.1
