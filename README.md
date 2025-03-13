@@ -1,5 +1,5 @@
 # Html ResizeObserver
-- A demo of this and all of my NuGet packages can be found [here](https://github.com/marqdouj/BlazorDemo/).
+- A demo of this and all of my NuGet packages can be found [here](https://github.com/marqdouj/Blazor-Demos/).
 
 ## NuGet Package
 https://www.nuget.org/packages/Marqdouj.Html.ResizeObserver/
