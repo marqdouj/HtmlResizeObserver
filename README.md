@@ -14,6 +14,9 @@ Includes Blazor demo using the html ResizeObserver.
 	1. `builder.Services.AddScoped<ResizeObserverService>();`
 
 ## Release Notes
+### 9.0.3
+- Update NuGet packages
+
 ### 9.0.2
 - Update NuGet packages
 
